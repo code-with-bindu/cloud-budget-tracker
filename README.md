@@ -2,7 +2,7 @@
 
 A FinOps-inspired REST API built with **FastAPI** and **PostgreSQL** to track cloud spending across teams — similar to what platforms like Astuto OneLens do.
 
-## 🚀 Features
+## Features
 - Create and manage teams (Backend, DevOps, Data etc)
 - Set monthly cloud budgets per team
 - Log cloud expenses per service (EC2, S3, Kubernetes etc)
@@ -32,7 +32,7 @@ pip install fastapi uvicorn sqlalchemy psycopg2-binary pydantic python-dotenv
 uvicorn main:app --reload
 ```
 
-## �API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
